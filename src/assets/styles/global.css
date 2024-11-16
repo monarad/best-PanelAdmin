@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../fonts/vazir/Vazirmatn[wght].woff2") format("woff2 supports variations"),
+    url("../fonts/vazir/Vazirmatn[wght].woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --main-color: #55a3f0;
+  --secondary-color: #f2f2f2;
+  --white-color: #fff;
+  --black-color: #282828;
+  --bg-color: #f7f8f8;
+  --font-24: 1.5rem;
+  --font-20: 1.25rem;
+  --font-18: 1.125rem;
+  --font-14: 0.875rem;
+  --font-12: 0.75rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Vazirmatn;
+  font-weight: 400;
+}
+body {
+  margin: auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: var(--bg-color);
+}
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+button,
+input,
+select {
+  font-family: inherit;
+}
